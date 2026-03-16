@@ -1,0 +1,31 @@
+<div class="app-container">
+
+  <div class="todo-card">
+
+    <h1 class="title">My Tasks</h1>
+
+    <div class="input-row">
+      <input
+        type="text"
+        placeholder="Add a task..."
+        [value]="newTask()"
+        (input)="newTask.set($any($event.target).value)"
+      />
+
+      <button (click)="addTask()">Add</button>
+    </div>
+
+    <ul>
+      @for (task of store.tasks(); track task){
+        <li>
+          {{ task.title }}
+          <button (click)="deleteTask(task.id)">
+            Delete
+          </button>
+        </li>
+      }
+    </ul>
+
+  </div>
+
+</div>
