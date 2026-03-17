@@ -5,7 +5,7 @@ import { TodoStore } from '../store/todo.store';
   selector: 'app-todo',
   standalone: true,
   templateUrl: './todo.html',
-  styleUrl: './todo.scss'
+  styleUrls: ['./todo.scss']
 })
 export class TodoComponent {
 
@@ -13,10 +13,12 @@ export class TodoComponent {
 
   newTask = signal('');
 
-  addTask() {
-    const title = this.newTask();
+  editingTaskId = signal<number | null>(null);
+  editedTitle = signal('');
 
-    if (!title.trim()) return;
+  addTask() {
+    const title = this.newTask().trim();
+    if (!title) return;
 
     this.store.addTask(title);
     this.newTask.set('');
@@ -24,6 +26,24 @@ export class TodoComponent {
 
   deleteTask(id: number) {
     this.store.deleteTask(id);
+  }
+
+  startEdit(task: any) {
+    this.editingTaskId.set(task.id);
+    this.editedTitle.set(task.title);
+  }
+
+  saveEdit(id: number) {
+    const title = this.editedTitle().trim();
+    if (!title) return;
+
+    this.store.updateTask(id, title);
+    this.cancelEdit();
+  }
+
+  cancelEdit() {
+    this.editingTaskId.set(null);
+    this.editedTitle.set('');
   }
 
 }

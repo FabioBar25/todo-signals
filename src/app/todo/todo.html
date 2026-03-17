@@ -11,18 +11,37 @@
         [value]="newTask()"
         (input)="newTask.set($any($event.target).value)"
       />
-
       <button (click)="addTask()">Add</button>
     </div>
 
     <ul>
-      @for (task of store.tasks(); track task){
+      @for (task of store.tasks(); track task.id) {
+
         <li>
-          {{ task.title }}
-          <button (click)="deleteTask(task.id)">
-            Delete
-          </button>
+
+          @if (editingTaskId() !== task.id) {
+
+            <!-- VIEW MODE -->
+            {{ task.title }}
+
+            <button (click)="startEdit(task)">Edit</button>
+            <button (click)="deleteTask(task.id)">Delete</button>
+
+          } @else {
+
+            <!-- EDIT MODE -->
+            <input
+              [value]="editedTitle()"
+              (input)="editedTitle.set($any($event.target).value)"
+            />
+
+            <button (click)="saveEdit(task.id)">Save</button>
+            <button (click)="cancelEdit()">Cancel</button>
+
+          }
+
         </li>
+
       }
     </ul>
 

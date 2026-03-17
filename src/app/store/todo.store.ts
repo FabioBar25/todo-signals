@@ -5,10 +5,8 @@ type TodoState = {
   tasks: Task[];
 };
 
-const LOCAL_STORAGE_KEY = 'todo-tasks';
-
 const initialState: TodoState = {
-  tasks: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) || '[]')
+  tasks: []
 };
 
 export const TodoStore = signalStore(
@@ -24,24 +22,25 @@ export const TodoStore = signalStore(
         title
       };
 
-      const updatedTasks = [...store.tasks(), newTask];
-      patchState(store, { tasks: updatedTasks });
-
-      // persist
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedTasks));
+      patchState(store, {
+        tasks: [...store.tasks(), newTask]
+      });
     },
 
     deleteTask(id: number) {
-      const updatedTasks = store.tasks().filter(t => t.id !== id);
-      patchState(store, { tasks: updatedTasks });
-
-      // persist
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedTasks));
+      patchState(store, {
+        tasks: store.tasks().filter(t => t.id !== id)
+      });
     },
 
-    loadTasks(tasks: Task[]) {
-      patchState(store, { tasks });
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(tasks));
+    updateTask(id: number, newTitle: string) {
+      patchState(store, {
+        tasks: store.tasks().map(task =>
+          task.id === id
+            ? { ...task, title: newTitle }
+            : task
+        )
+      });
     }
 
   }))
