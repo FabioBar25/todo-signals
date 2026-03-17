@@ -26,7 +26,7 @@
     "@angular/compiler": "^20.3.0",
     "@angular/core": "^20.3.0",
     "@angular/forms": "^20.3.0",
-    "@angular/platform-browser": "^20.3.0",
+    "@angular/platform-browser": "^20.3.18",
     "@angular/router": "^20.3.0",
     "@ngrx/signals": "^21.0.1",
     "rxjs": "~7.8.0",

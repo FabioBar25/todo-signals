@@ -5,8 +5,10 @@ type TodoState = {
   tasks: Task[];
 };
 
+const LOCAL_STORAGE_KEY = 'todo-tasks';
+
 const initialState: TodoState = {
-  tasks: []
+  tasks: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) || '[]')
 };
 
 export const TodoStore = signalStore(
@@ -17,27 +19,29 @@ export const TodoStore = signalStore(
   withMethods((store) => ({
 
     addTask(title: string) {
-
       const newTask: Task = {
         id: Date.now(),
         title
       };
 
-      patchState(store, {
-        tasks: [...store.tasks(), newTask]
-      });
+      const updatedTasks = [...store.tasks(), newTask];
+      patchState(store, { tasks: updatedTasks });
+
+      // persist
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedTasks));
     },
 
     deleteTask(id: number) {
+      const updatedTasks = store.tasks().filter(t => t.id !== id);
+      patchState(store, { tasks: updatedTasks });
 
-      patchState(store, {
-        tasks: store.tasks().filter(t => t.id !== id)
-      });
-
+      // persist
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedTasks));
     },
 
     loadTasks(tasks: Task[]) {
       patchState(store, { tasks });
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(tasks));
     }
 
   }))
