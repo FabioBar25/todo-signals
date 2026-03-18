@@ -7,7 +7,7 @@ $danger: #e74c3c;
 $text: #2d3436;
 
 .edit-row{
-  display: flex; gap: 8px; align-items: center; 
+  display: flex; gap: 5px; align-items: center;
 }
 
 .input-edit{
@@ -18,7 +18,7 @@ $text: #2d3436;
 ul {
   display: flex;
   flex-direction: column; /* Use 'row' for horizontal lists */
-  gap: 20px;              /* This creates the space */
+  gap: 10px;              /* This creates the space */
   margin-left: 10px; /* Optional: Add padding to the top and bottom of the list */
 }
 
