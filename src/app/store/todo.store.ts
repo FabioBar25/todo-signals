@@ -31,7 +31,7 @@ export const TodoStore = signalStore(
       });
     }
   })),
-  // --- ADD THIS SECTION ---
+  
   withHooks({
     onInit(store) {
       effect(() => {
