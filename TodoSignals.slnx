@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Access/">
+    <Project Path="Access/TodoSignals.Access/TodoSignals.Access.csproj" />
+  </Folder>
+  <Folder Name="/Host/">
+    <Project Path="Host/TodoSignals.Host/TodoSignals.Host.csproj" />
+  </Folder>
+  <Folder Name="/Manager/">
+    <Project Path="Manager/TodoSignals.Manager/TodoSignals.Manager.csproj" />
+  </Folder>
+</Solution>

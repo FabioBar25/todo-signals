@@ -1,4 +1,5 @@
 import { Component, inject, signal } from '@angular/core';
+import { Task } from '../models/task';
 import { TodoStore } from '../store/todo.store';
 
 @Component({
@@ -8,17 +9,16 @@ import { TodoStore } from '../store/todo.store';
   styleUrls: ['./todo.scss']
 })
 export class TodoComponent {
-
-  store = inject(TodoStore);
-
-  newTask = signal('');
-
-  editingTaskId = signal<number | null>(null);
-  editedTitle = signal('');
+  readonly store = inject(TodoStore);
+  readonly newTask = signal('');
+  readonly editingTaskId = signal<number | null>(null);
+  readonly editedTitle = signal('');
 
   addTask() {
     const title = this.newTask().trim();
-    if (!title) return;
+    if (!title) {
+      return;
+    }
 
     this.store.addTask(title);
     this.newTask.set('');
@@ -28,16 +28,18 @@ export class TodoComponent {
     this.store.deleteTask(id);
   }
 
-  startEdit(task: any) {
+  startEdit(task: Task) {
     this.editingTaskId.set(task.id);
     this.editedTitle.set(task.title);
   }
 
   saveEdit(id: number) {
     const title = this.editedTitle().trim();
-    if (!title) return;
+    if (!title) {
+      return;
+    }
 
-    this.store.updateTask(id, title);
+    this.store.updateTask({ id, title });
     this.cancelEdit();
   }
 
@@ -45,5 +47,4 @@ export class TodoComponent {
     this.editingTaskId.set(null);
     this.editedTitle.set('');
   }
-
 }

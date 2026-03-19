@@ -10,9 +10,23 @@ $text: #2d3436;
   display: flex; gap: 5px; align-items: center;
 }
 
+.task-title {
+  flex: 1;
+  word-break: break-word;
+}
+
 .input-edit{
   border: none;
   width: 80%;
+}
+
+.status-message {
+  margin: 0 0 12px;
+  color: #636e72;
+}
+
+.status-message.error {
+  color: $danger;
 }
 
 ul {

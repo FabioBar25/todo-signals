@@ -1,7 +1,5 @@
 <div class="app-container">
-
   <div class="todo-card">
-
     <h1 class="title">My Tasks</h1>
 
     <div class="input-row">
@@ -11,24 +9,31 @@
         [value]="newTask()"
         (input)="newTask.set($any($event.target).value)"
       />
-      <button (click)="addTask()">Add</button>
+      <button (click)="addTask()" [disabled]="store.isSaving()">Add</button>
     </div>
+
+    @if (store.isLoading()) {
+      <p class="status-message">Loading tasks...</p>
+    }
+
+    @if (store.error(); as error) {
+      <p class="status-message error">{{ error }}</p>
+    }
 
     <ul>
       @for (task of store.tasks(); track task.id) {
         <li>
           @if (editingTaskId() !== task.id) {
             <div class="edit-row">
-            {{ task.title }}
+              <span class="task-title">{{ task.title }}</span>
               <div class="button-positive">
-                <button (click)="startEdit(task)">Edit</button>
+                <button (click)="startEdit(task)" [disabled]="store.isSaving()">Edit</button>
               </div>
               <div class="button-negative">
-                <button (click)="deleteTask(task.id)">Delete</button>
+                <button (click)="deleteTask(task.id)" [disabled]="store.isSaving()">Delete</button>
               </div>
             </div>
-          } 
-          @else {
+          } @else {
             <div class="edit-row">
               <div class="input-edit">
                 <input
@@ -36,19 +41,16 @@
                   (input)="editedTitle.set($any($event.target).value)"
                 />
               </div>
-                <div class="button-positive">
-                  <button (click)="saveEdit(task.id)">Save</button>
-                </div>
-                <div class="button-negative">
-                  <button (click)="cancelEdit()">Cancel</button>
-                </div>           
+              <div class="button-positive">
+                <button (click)="saveEdit(task.id)" [disabled]="store.isSaving()">Save</button>
+              </div>
+              <div class="button-negative">
+                <button (click)="cancelEdit()" [disabled]="store.isSaving()">Cancel</button>
+              </div>
             </div>
           }
         </li>
-
       }
     </ul>
-
   </div>
-
 </div>

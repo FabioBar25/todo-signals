@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29672FC8-C01D-CB38-4093-59E94F620FAC}|Access\\TodoSignals.Access\\TodoSignals.Access.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\access\\todosignals.access\\taskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29672FC8-C01D-CB38-4093-59E94F620FAC}|Access\\TodoSignals.Access\\TodoSignals.Access.csproj|solutionrelative:access\\todosignals.access\\taskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B6BE52-6E9D-DDD1-F192-4A93CEEB6280}|Host\\TodoSignals.Host\\TodoSignals.Host.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\host\\todosignals.host\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B6BE52-6E9D-DDD1-F192-4A93CEEB6280}|Host\\TodoSignals.Host\\TodoSignals.Host.csproj|solutionrelative:host\\todosignals.host\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B6BE52-6E9D-DDD1-F192-4A93CEEB6280}|Host\\TodoSignals.Host\\TodoSignals.Host.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\host\\todosignals.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B6BE52-6E9D-DDD1-F192-4A93CEEB6280}|Host\\TodoSignals.Host\\TodoSignals.Host.csproj|solutionrelative:host\\todosignals.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29672FC8-C01D-CB38-4093-59E94F620FAC}|Access\\TodoSignals.Access\\TodoSignals.Access.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\access\\todosignals.access\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29672FC8-C01D-CB38-4093-59E94F620FAC}|Access\\TodoSignals.Access\\TodoSignals.Access.csproj|solutionrelative:access\\todosignals.access\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Access\\TodoSignals.Access\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Access\\TodoSignals.Access\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Access\\TodoSignals.Access\\DependencyInjection.cs",
+              "RelativeToolTip": "Access\\TodoSignals.Access\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:06:11.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Access\\TodoSignals.Access\\TaskAccessor.cs",
+              "RelativeDocumentMoniker": "Access\\TodoSignals.Access\\TaskAccessor.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Access\\TodoSignals.Access\\TaskAccessor.cs",
+              "RelativeToolTip": "Access\\TodoSignals.Access\\TaskAccessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:06:09.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Host\\TodoSignals.Host\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Host\\TodoSignals.Host\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Host\\TodoSignals.Host\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Host\\TodoSignals.Host\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwE8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:05:56.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Host\\TodoSignals.Host\\Program.cs",
+              "RelativeDocumentMoniker": "Host\\TodoSignals.Host\\Program.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\Host\\TodoSignals.Host\\Program.cs",
+              "RelativeToolTip": "Host\\TodoSignals.Host\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:05:21.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
