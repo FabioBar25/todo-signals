@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoSignals.Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d0df49d327c0a405b20b63323d1449e7821f774")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60d87993fca89323afc0ef7e1f8b65d7bab16d45")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoSignals.Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoSignals.Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
