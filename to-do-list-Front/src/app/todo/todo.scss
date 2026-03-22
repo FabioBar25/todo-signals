@@ -25,8 +25,37 @@ $text: #2d3436;
   color: #636e72;
 }
 
+.status-detail {
+  margin: 0 0 12px;
+  color: #636e72;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.status-panel {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid $border;
+  background: #fff9e8;
+}
+
+.status-panel.warning {
+  border-color: #f0c36d;
+}
+
 .status-message.error {
   color: $danger;
+}
+
+.retry-button {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #1f6feb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 ul {

@@ -16,6 +16,16 @@
       <p class="status-message">Loading tasks...</p>
     }
 
+    @if (store.hasLoadTimedOut()) {
+      <div class="status-panel warning">
+        <p class="status-message">The backend did not respond in time.</p>
+        <p class="status-detail">
+          If you are using local dev, make sure the API/proxy are running on `http://localhost:5000`.
+        </p>
+        <button class="retry-button" (click)="retryLoad()">Retry</button>
+      </div>
+    }
+
     @if (store.error(); as error) {
       <p class="status-message error">{{ error }}</p>
     }

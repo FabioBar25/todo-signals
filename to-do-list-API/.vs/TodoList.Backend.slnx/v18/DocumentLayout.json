@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-front\\backend\\src\\todolist.access\\taskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|solutionrelative:src\\todolist.access\\taskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-front\\backend\\src\\todolist.access\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|solutionrelative:src\\todolist.access\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-front\\backend\\src\\todolist.access\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|solutionrelative:src\\todolist.access\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-front\\backend\\src\\todolist.access\\entities\\taskrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30DC7B-1106-21DD-13DB-1D90CFF05D92}|src\\TodoList.Access\\TodoList.Access.csproj|solutionrelative:src\\todolist.access\\entities\\taskrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD11398-13B7-B8A3-4655-E97CE1B2E0F4}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-front\\backend\\src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD11398-13B7-B8A3-4655-E97CE1B2E0F4}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|solutionrelative:src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\TodoDbContext.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Access\\TodoDbContext.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\TodoDbContext.cs",
+              "RelativeToolTip": "src\\TodoList.Access\\TodoDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T21:37:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\TaskAccessor.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Access\\TaskAccessor.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\TaskAccessor.cs",
+              "RelativeToolTip": "src\\TodoList.Access\\TaskAccessor.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:41:07.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskRecord.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\Entities\\TaskRecord.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Access\\Entities\\TaskRecord.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\Entities\\TaskRecord.cs",
+              "RelativeToolTip": "src\\TodoList.Access\\Entities\\TaskRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:40:17.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Access\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.Access\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\TodoList.Access\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:40:07.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceDefaultsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-Front\\backend\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "RelativeToolTip": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:22:15.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

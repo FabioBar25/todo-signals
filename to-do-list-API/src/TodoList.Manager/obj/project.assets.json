@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\joako\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
+      "projectName": "TodoList.Manager",
+      "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
+      "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\obj\\",
+      "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+        "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "centralPackageVersions": {
+          "Aspire.Hosting.AppHost": "9.5.2",
+          "Aspire.Hosting.NodeJS": "9.5.2",
+          "Aspire.Hosting.PostgreSQL": "9.5.2",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.0",
+          "Yarp.ReverseProxy": "2.2.0"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

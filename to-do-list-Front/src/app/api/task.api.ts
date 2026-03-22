@@ -11,7 +11,7 @@ type SaveTaskRequest = {
 @Injectable({ providedIn: 'root' })
 export class TaskApiService {
   private readonly http = inject(HttpClient);
-  private readonly baseUrl = 'https://localhost:7126/api/tasks';
+  private readonly baseUrl = '/api/tasks';
 
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(this.baseUrl);

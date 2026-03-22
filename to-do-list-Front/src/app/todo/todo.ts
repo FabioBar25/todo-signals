@@ -28,6 +28,10 @@ export class TodoComponent {
     this.store.deleteTask(id);
   }
 
+  retryLoad() {
+    this.store.retryLoad();
+  }
+
   startEdit(task: Task) {
     this.editingTaskId.set(task.id);
     this.editedTitle.set(task.title);
