@@ -14,7 +14,7 @@ var proxy = builder.AddProject<Projects.TodoList_Proxy>("proxy")
     .WithExternalHttpEndpoints();
 
 builder.AddNpmApp("frontend", "..\\..\\..", "start:aspire")
-    .WithHttpEndpoint(env: "PORT", port: 4300)npm start
+    .WithHttpEndpoint(env: "PORT", port: 4300)
     .WithEnvironment("BROWSER", "none");
 
 builder.Build().Run();
