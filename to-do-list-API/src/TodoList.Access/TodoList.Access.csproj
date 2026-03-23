@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TodoList.Manager\TodoList.Manager.csproj" />
+    <ProjectReference Include="..\TodoList.Manager\TodoList.Manager.csproj"
+                      SkipGetTargetFrameworkProperties="true" />
   </ItemGroup>
 
 </Project>

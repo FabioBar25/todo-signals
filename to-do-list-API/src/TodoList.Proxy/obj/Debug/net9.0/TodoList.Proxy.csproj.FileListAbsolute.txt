@@ -98,7 +98,6 @@ C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\swae.build.ex.cache
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\TodoList.E975D930.Up2Date
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Proxy\obj\Debug\net9.0\TodoList.Proxy.dll

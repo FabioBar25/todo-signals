@@ -7,9 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TodoList.Access\TodoList.Access.csproj" />
-    <ProjectReference Include="..\TodoList.Manager\TodoList.Manager.csproj" />
-    <ProjectReference Include="..\TodoList.ServiceDefaults\TodoList.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\TodoList.Access\TodoList.Access.csproj"
+                      SkipGetTargetFrameworkProperties="true" />
+    <ProjectReference Include="..\TodoList.Manager\TodoList.Manager.csproj"
+                      SkipGetTargetFrameworkProperties="true" />
+    <ProjectReference Include="..\TodoList.ServiceDefaults\TodoList.ServiceDefaults.csproj"
+                      SkipGetTargetFrameworkProperties="true" />
   </ItemGroup>
 
 </Project>

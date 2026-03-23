@@ -2,17 +2,6 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Aspire.Dashboard.Sdk.win-x64/9.5.2": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props": {},
-          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props": {},
-          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets": {}
-        }
-      },
       "Aspire.Hosting/9.5.2": {
         "type": "package",
         "dependencies": {
@@ -137,94 +126,6 @@
           "buildMultiTargeting/_._": {}
         }
       },
-      "Aspire.Hosting.NodeJs/9.5.2": {
-        "type": "package",
-        "dependencies": {
-          "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.5.2",
-          "Google.Protobuf": "3.32.0",
-          "Grpc.AspNetCore": "2.71.0",
-          "Grpc.Net.ClientFactory": "2.71.0",
-          "Grpc.Tools": "2.72.0",
-          "Humanizer.Core": "2.14.1",
-          "JsonPatch.Net": "3.3.0",
-          "KubernetesClient": "17.0.14",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.20",
-          "Microsoft.Extensions.Hosting": "8.0.1",
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Http": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
-          "Microsoft.Extensions.Options": "8.0.2",
-          "Microsoft.Extensions.Primitives": "8.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "Polly.Core": "8.6.3",
-          "Semver": "3.0.0",
-          "StreamJsonRpc": "2.22.11",
-          "System.IO.Hashing": "9.0.8"
-        },
-        "compile": {
-          "lib/net8.0/Aspire.Hosting.NodeJs.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Aspire.Hosting.NodeJs.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Aspire.Hosting.Orchestration.win-x64/9.5.2": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets": {}
-        }
-      },
-      "Aspire.Hosting.PostgreSQL/9.5.2": {
-        "type": "package",
-        "dependencies": {
-          "AspNetCore.HealthChecks.NpgSql": "9.0.0",
-          "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.5.2",
-          "Google.Protobuf": "3.32.0",
-          "Grpc.AspNetCore": "2.71.0",
-          "Grpc.Net.ClientFactory": "2.71.0",
-          "Grpc.Tools": "2.72.0",
-          "Humanizer.Core": "2.14.1",
-          "JsonPatch.Net": "3.3.0",
-          "KubernetesClient": "17.0.14",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.20",
-          "Microsoft.Extensions.Hosting": "8.0.1",
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Http": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
-          "Microsoft.Extensions.Options": "8.0.2",
-          "Microsoft.Extensions.Primitives": "8.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "Polly.Core": "8.6.3",
-          "Semver": "3.0.0",
-          "StreamJsonRpc": "2.22.11",
-          "System.IO.Hashing": "9.0.8"
-        },
-        "compile": {
-          "lib/net8.0/Aspire.Hosting.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Aspire.Hosting.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Aspire.Hosting.Testing/9.5.2": {
         "type": "package",
         "dependencies": {
@@ -306,23 +207,6 @@
           },
           "lib/net9.0/zh-Hant/Aspire.Hosting.Testing.resources.dll": {
             "locale": "zh-Hant"
-          }
-        }
-      },
-      "AspNetCore.HealthChecks.NpgSql/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.11",
-          "Npgsql": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0/HealthChecks.NpgSql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/HealthChecks.NpgSql.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -656,63 +540,6 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.0",
-          "Microsoft.Extensions.Caching.Memory": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Abstractions/9.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Analyzers/9.0.0": {
-        "type": "package"
-      },
-      "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "Microsoft.Extensions.Caching.Memory": "9.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Extensions.AmbientMetadata.Application/9.9.0": {
         "type": "package",
         "dependencies": {
@@ -727,48 +554,6 @@
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.AmbientMetadata.Application.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Abstractions/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.0"
-        },
-        "compile": {
-          "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Options": "9.0.0",
-          "Microsoft.Extensions.Primitives": "9.0.0"
-        },
-        "compile": {
-          "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
             "related": ".xml"
           }
         },
@@ -2027,41 +1812,6 @@
           }
         }
       },
-      "Npgsql/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "System.Text.Json": "9.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "[9.0.0, 10.0.0)",
-          "Microsoft.EntityFrameworkCore.Relational": "[9.0.0, 10.0.0)",
-          "Npgsql": "9.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NUnit/4.2.2": {
         "type": "package",
         "compile": {
@@ -2290,22 +2040,6 @@
           }
         }
       },
-      "System.Text.Json/9.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net9.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/System.Text.Json.targets": {}
-        }
-      },
       "System.Threading.RateLimiting/8.0.0": {
         "type": "package",
         "compile": {
@@ -2334,217 +2068,10 @@
             "related": ".xml"
           }
         }
-      },
-      "TodoList.Access/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.0",
-          "TodoList.Manager": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TodoList.Access.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TodoList.Access.dll": {}
-        }
-      },
-      "TodoList.AppHost/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Aspire.Dashboard.Sdk.win-x64": "9.5.2",
-          "Aspire.Hosting.AppHost": "9.5.2",
-          "Aspire.Hosting.NodeJS": "9.5.2",
-          "Aspire.Hosting.Orchestration.win-x64": "9.5.2",
-          "Aspire.Hosting.PostgreSQL": "9.5.2"
-        },
-        "compile": {
-          "bin/placeholder/TodoList.AppHost.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TodoList.AppHost.dll": {}
-        }
-      },
-      "TodoList.Host/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "TodoList.Access": "1.0.0",
-          "TodoList.Manager": "1.0.0",
-          "TodoList.ServiceDefaults": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TodoList.Host.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TodoList.Host.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "TodoList.Manager/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TodoList.Manager.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TodoList.Manager.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "TodoList.ServiceDefaults/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TodoList.ServiceDefaults.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TodoList.ServiceDefaults.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
   "libraries": {
-    "Aspire.Dashboard.Sdk.win-x64/9.5.2": {
-      "sha512": "59o0gxsY39F/SNslyuOXeh0bZMokh0inqHi848C7JGVJLNJ1P9p5M3vV+otWhnj9OJMDhvfAqUckslzTGLzXPA==",
-      "type": "package",
-      "path": "aspire.dashboard.sdk.win-x64/9.5.2",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "EULA.md",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "aspire.dashboard.sdk.win-x64.9.5.2.nupkg.sha512",
-        "aspire.dashboard.sdk.win-x64.nuspec",
-        "build/Aspire.Dashboard.Sdk.win-x64.props",
-        "build/Aspire.Dashboard.Sdk.win-x64.targets",
-        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props",
-        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets",
-        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props",
-        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets",
-        "tools/Aspire.Dashboard.deps.json",
-        "tools/Aspire.Dashboard.dll",
-        "tools/Aspire.Dashboard.exe",
-        "tools/Aspire.Dashboard.runtimeconfig.json",
-        "tools/Aspire.Dashboard.staticwebassets.endpoints.json",
-        "tools/Aspire.Dashboard.xml",
-        "tools/Google.Protobuf.dll",
-        "tools/Grpc.AspNetCore.Server.ClientFactory.dll",
-        "tools/Grpc.AspNetCore.Server.dll",
-        "tools/Grpc.Core.Api.dll",
-        "tools/Grpc.Net.Client.dll",
-        "tools/Grpc.Net.ClientFactory.dll",
-        "tools/Grpc.Net.Common.dll",
-        "tools/Humanizer.dll",
-        "tools/Markdig.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Certificate.dll",
-        "tools/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
-        "tools/Microsoft.Extensions.AI.Abstractions.dll",
-        "tools/Microsoft.Extensions.AI.OpenAI.dll",
-        "tools/Microsoft.Extensions.AI.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Color.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Filled.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Light.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Regular.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.dll",
-        "tools/Microsoft.FluentUI.AspNetCore.Components.dll",
-        "tools/Microsoft.IdentityModel.Abstractions.dll",
-        "tools/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "tools/Microsoft.IdentityModel.Logging.dll",
-        "tools/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "tools/Microsoft.IdentityModel.Protocols.dll",
-        "tools/Microsoft.IdentityModel.Tokens.dll",
-        "tools/OpenAI.dll",
-        "tools/System.ClientModel.dll",
-        "tools/System.IdentityModel.Tokens.Jwt.dll",
-        "tools/System.Memory.Data.dll",
-        "tools/appsettings.Development.json",
-        "tools/appsettings.json",
-        "tools/cs/Aspire.Dashboard.resources.dll",
-        "tools/de/Aspire.Dashboard.resources.dll",
-        "tools/es/Aspire.Dashboard.resources.dll",
-        "tools/fr/Aspire.Dashboard.resources.dll",
-        "tools/it/Aspire.Dashboard.resources.dll",
-        "tools/ja/Aspire.Dashboard.resources.dll",
-        "tools/ko/Aspire.Dashboard.resources.dll",
-        "tools/pl/Aspire.Dashboard.resources.dll",
-        "tools/pt-BR/Aspire.Dashboard.resources.dll",
-        "tools/ru/Aspire.Dashboard.resources.dll",
-        "tools/tr/Aspire.Dashboard.resources.dll",
-        "tools/web.config",
-        "tools/wwwroot/Aspire.Dashboard.modules.json",
-        "tools/wwwroot/Aspire.Dashboard.styles.css",
-        "tools/wwwroot/Components/Controls/AssistantChat.razor.js",
-        "tools/wwwroot/Components/Controls/Chart/MetricTable.razor.js",
-        "tools/wwwroot/Components/Controls/MarkdownRenderer.razor.js",
-        "tools/wwwroot/Components/Controls/TextVisualizer.razor.js",
-        "tools/wwwroot/Components/Pages/Login.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Anchor/FluentAnchor.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/AnchoredRegion/FluentAnchoredRegion.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Button/FluentButton.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Checkbox/FluentCheckbox.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DataGrid/FluentDataGrid.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DateTime/FluentTimePicker.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DesignSystemProvider/FluentDesignTheme.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Divider/FluentDivider.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Grid/FluentGrid.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/HorizontalScroll/FluentHorizontalScroll.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/InputFile/FluentInputFile.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/KeyCode/FluentKeyCode.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Label/FluentInputLabel.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/FluentAutocomplete.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/FluentCombobox.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/ListComponentBase.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Menu/FluentMenu.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/NavMenu/FluentNavMenu.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Overflow/FluentOverflow.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Overlay/FluentOverlay.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/PullToRefresh/FluentPullToRefresh.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Search/FluentSearch.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Slider/FluentSlider.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Slider/FluentSliderLabel.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/SortableList/FluentSortableList.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Splitter/FluentMultiSplitter.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Tabs/FluentTab.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/TextField/FluentTextField.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Toolbar/FluentToolbar.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Tooltip/FluentTooltip.razor.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.b6pgxrrsua.bundle.scp.css",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/js/initializersLoader.webview.js",
-        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/js/loading-theme.js",
-        "tools/wwwroot/css/app.css",
-        "tools/wwwroot/css/highlight.css",
-        "tools/wwwroot/css/markdown.css",
-        "tools/wwwroot/favicon.ico",
-        "tools/wwwroot/framework/blazor.web.js",
-        "tools/wwwroot/img/TokenExample.png",
-        "tools/wwwroot/js/app-metrics.js",
-        "tools/wwwroot/js/app-reconnect.js",
-        "tools/wwwroot/js/app-resourcegraph.js",
-        "tools/wwwroot/js/app-theme.js",
-        "tools/wwwroot/js/app.js",
-        "tools/wwwroot/js/d3.v7.min.js",
-        "tools/wwwroot/js/highlight-11.10.0.min.js",
-        "tools/wwwroot/js/plotly-basic-2.35.2.min.js",
-        "tools/zh-Hans/Aspire.Dashboard.resources.dll",
-        "tools/zh-Hant/Aspire.Dashboard.resources.dll"
-      ]
-    },
     "Aspire.Hosting/9.5.2": {
       "sha512": "CQLIzx6zkQCuok+CHjrj3sEVlP6/elJwnWdkJComkAkQvp82ASPwiUDPF84bt5rO9SBwRqeej7HpFMLoL55fhQ==",
       "type": "package",
@@ -2598,67 +2125,6 @@
         "lib/net9.0/Aspire.Hosting.AppHost.xml"
       ]
     },
-    "Aspire.Hosting.NodeJs/9.5.2": {
-      "sha512": "VCoWkWBwsBJGgWdoaL8bMM/KLtmVMizGGLy3XvrqqFAa1yTG+Rk7LD4AKv3fz0Lcms4/Qy6/SN49zTz73fVUlw==",
-      "type": "package",
-      "path": "aspire.hosting.nodejs/9.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.nodejs.9.5.2.nupkg.sha512",
-        "aspire.hosting.nodejs.nuspec",
-        "lib/net8.0/Aspire.Hosting.NodeJs.dll",
-        "lib/net8.0/Aspire.Hosting.NodeJs.xml"
-      ]
-    },
-    "Aspire.Hosting.Orchestration.win-x64/9.5.2": {
-      "sha512": "GQGlyoAntX+ng+VUuXSEKhhK9SazgBe4kC5Mia7sNclmY4sVCSCeAWAXDHYhKF3ayVbG9m/wR+PIgBy66nL6kQ==",
-      "type": "package",
-      "path": "aspire.hosting.orchestration.win-x64/9.5.2",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.orchestration.win-x64.9.5.2.nupkg.sha512",
-        "aspire.hosting.orchestration.win-x64.nuspec",
-        "build/Aspire.Hosting.Orchestration.win-x64.targets",
-        "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets",
-        "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets",
-        "tools/EULA.rtf",
-        "tools/NOTICE",
-        "tools/_manifest/spdx_2.2/ESRPClientLogs1014225850342.json",
-        "tools/_manifest/spdx_2.2/bsi.cose",
-        "tools/_manifest/spdx_2.2/bsi.json",
-        "tools/_manifest/spdx_2.2/manifest.cat",
-        "tools/_manifest/spdx_2.2/manifest.spdx.cose",
-        "tools/_manifest/spdx_2.2/manifest.spdx.json",
-        "tools/_manifest/spdx_2.2/manifest.spdx.json.sha256",
-        "tools/dcp.exe",
-        "tools/ext/bin/dcpproc.exe",
-        "tools/ext/dcpctrl.exe"
-      ]
-    },
-    "Aspire.Hosting.PostgreSQL/9.5.2": {
-      "sha512": "ap/Ltivs9fPhkssyTIuLlQEIl3SGodcULK1T5CAxMVL7OuwjeB1GqU5vkcfxfjZbpVpdcqAQD2tPrx2u34JZuQ==",
-      "type": "package",
-      "path": "aspire.hosting.postgresql/9.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.postgresql.9.5.2.nupkg.sha512",
-        "aspire.hosting.postgresql.nuspec",
-        "lib/net8.0/Aspire.Hosting.PostgreSQL.dll",
-        "lib/net8.0/Aspire.Hosting.PostgreSQL.xml"
-      ]
-    },
     "Aspire.Hosting.Testing/9.5.2": {
       "sha512": "Ys4W6HUmqxZzc5uNqfIe4Qb92LN44RE037+K4Or3fbxMfPYhkcHL2xMo0TOq4T49ysvCapl7VzZityqCIYFDcg==",
       "type": "package",
@@ -2700,23 +2166,6 @@
         "lib/net9.0/tr/Aspire.Hosting.Testing.resources.dll",
         "lib/net9.0/zh-Hans/Aspire.Hosting.Testing.resources.dll",
         "lib/net9.0/zh-Hant/Aspire.Hosting.Testing.resources.dll"
-      ]
-    },
-    "AspNetCore.HealthChecks.NpgSql/9.0.0": {
-      "sha512": "npc58/AD5zuVxERdhCl2Kb7WnL37mwX42SJcXIwvmEig0/dugOLg3SIwtfvvh3TnvTwR/sk5LYNkkPaBdks61A==",
-      "type": "package",
-      "path": "aspnetcore.healthchecks.npgsql/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
-        "aspnetcore.healthchecks.npgsql.nuspec",
-        "icon.png",
-        "lib/net8.0/HealthChecks.NpgSql.dll",
-        "lib/net8.0/HealthChecks.NpgSql.xml",
-        "lib/netstandard2.0/HealthChecks.NpgSql.dll",
-        "lib/netstandard2.0/HealthChecks.NpgSql.xml"
       ]
     },
     "AspNetCore.HealthChecks.Uris/9.0.0": {
@@ -3294,66 +2743,6 @@
         "microsoft.codecoverage.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/9.0.0": {
-      "sha512": "wpG+nfnfDAw87R3ovAsUmjr3MZ4tYXf6bFqEPVAIKE6IfPml3DS//iX0DBnf8kWn5ZHSO5oi1m4d/Jf+1LifJQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.dll",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Abstractions/9.0.0": {
-      "sha512": "fnmifFL8KaA4ZNLCVgfjCWhZUFxkrDInx5hR4qG7Q8IEaSiy/6VOSRFyx55oH7MV4y7wM3J3EE90nSpcVBI44Q==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/9.0.0": {
-      "sha512": "Qje+DzXJOKiXF72SL0XxNlDtTkvWWvmwknuZtFahY5hIQpRKO59qnGuERIQ3qlzuq5x4bAJ8WMbgU5DLhBgeOQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "docs/PACKAGE.md",
-        "microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
-      "sha512": "j+msw6fWgAE9M3Q/5B9Uhv7pdAdAQUvFPJAiBJmoy+OXvehVbfbCE8ftMAa51Uo2ZeiqVnHShhnv4Y4UJJmUzA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.nuspec"
-      ]
-    },
     "Microsoft.Extensions.AmbientMetadata.Application/9.9.0": {
       "sha512": "sCc7X0rXDdWIXdRq/s8Yd3YoMz2r0wNyRGQ5HdYu1TfvpGryH/3lH1pizS1WsL8gYrAD3nT0GIbsyz6c5dM/wQ==",
       "type": "package",
@@ -3375,62 +2764,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.AmbientMetadata.Application.xml",
         "microsoft.extensions.ambientmetadata.application.9.9.0.nupkg.sha512",
         "microsoft.extensions.ambientmetadata.application.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Caching.Abstractions/9.0.0": {
-      "sha512": "FPWZAa9c0H4dvOj351iR1jkUIs4u9ykL4Bm592yhjDyO5lCoWd+TMAHx2EMbarzUvCvgjWjJIoC6//Q9kH6YhA==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Caching.Abstractions.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Abstractions.targets",
-        "lib/net462/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.Caching.Abstractions.xml",
-        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.9.0.0.nupkg.sha512",
-        "microsoft.extensions.caching.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Caching.Memory/9.0.0": {
-      "sha512": "zbnPX/JQ0pETRSUG9fNPBvpIq42Aufvs15gGYyNIMhCun9yhmWihz0WgsI7bSDPjxWTKBf8oX/zv6v2uZ3W9OQ==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.memory/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Caching.Memory.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Memory.targets",
-        "lib/net462/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/net462/Microsoft.Extensions.Caching.Memory.xml",
-        "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/net8.0/Microsoft.Extensions.Caching.Memory.xml",
-        "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/net9.0/Microsoft.Extensions.Caching.Memory.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.9.0.0.nupkg.sha512",
-        "microsoft.extensions.caching.memory.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.Compliance.Abstractions/9.9.0": {
@@ -4959,38 +4292,6 @@
         "packageIcon.png"
       ]
     },
-    "Npgsql/9.0.0": {
-      "sha512": "zu1nCRt0gWP/GR0reYgg0Bl5o8qyNV7mVAgzAbVLRiAd1CYXcf/9nrubPH0mt93u8iGTKmYqWaLVECEAcE6IfQ==",
-      "type": "package",
-      "path": "npgsql/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net6.0/Npgsql.dll",
-        "lib/net6.0/Npgsql.xml",
-        "lib/net8.0/Npgsql.dll",
-        "lib/net8.0/Npgsql.xml",
-        "npgsql.9.0.0.nupkg.sha512",
-        "npgsql.nuspec",
-        "postgresql.png"
-      ]
-    },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.0": {
-      "sha512": "ObngKFRLMBAeMqQzK7SC0Q6WZtWw0imPmEkVPo12yLVF3fioz2TN+w0mhNMJ5cVd/sLB2u+jei0bmA9sDMtkMw==",
-      "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
-        "npgsql.entityframeworkcore.postgresql.9.0.0.nupkg.sha512",
-        "npgsql.entityframeworkcore.postgresql.nuspec",
-        "postgresql.png"
-      ]
-    },
     "NUnit/4.2.2": {
       "sha512": "mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
       "type": "package",
@@ -5338,77 +4639,6 @@
         "version.txt"
       ]
     },
-    "System.Text.Json/9.0.0": {
-      "sha512": "js7+qAu/9mQvnhA4EfGMZNEzXtJCDxgkgj8ohuxq/Qxv+R56G+ljefhiJHOxTNiw54q8vmABCWUwkMulNdlZ4A==",
-      "type": "package",
-      "path": "system.text.json/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "buildTransitive/net461/System.Text.Json.targets",
-        "buildTransitive/net462/System.Text.Json.targets",
-        "buildTransitive/net8.0/System.Text.Json.targets",
-        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
-        "buildTransitive/netstandard2.0/System.Text.Json.targets",
-        "lib/net462/System.Text.Json.dll",
-        "lib/net462/System.Text.Json.xml",
-        "lib/net8.0/System.Text.Json.dll",
-        "lib/net8.0/System.Text.Json.xml",
-        "lib/net9.0/System.Text.Json.dll",
-        "lib/net9.0/System.Text.Json.xml",
-        "lib/netstandard2.0/System.Text.Json.dll",
-        "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.9.0.0.nupkg.sha512",
-        "system.text.json.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Threading.RateLimiting/8.0.0": {
       "sha512": "7mu9v0QDv66ar3DpGSZHg9NuNcxDaaAcnMULuZlaTpP9+hwXhrxNGsF5GmLkSHxFdb5bBc1TzeujsRgTrPWi+Q==",
       "type": "package",
@@ -5460,31 +4690,6 @@
         "yamldotnet.16.3.0.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
-    },
-    "TodoList.Access/1.0.0": {
-      "type": "project",
-      "path": "../../src/TodoList.Access/TodoList.Access.csproj",
-      "msbuildProject": "../../src/TodoList.Access/TodoList.Access.csproj"
-    },
-    "TodoList.AppHost/1.0.0": {
-      "type": "project",
-      "path": "../../src/TodoList.AppHost/TodoList.AppHost.csproj",
-      "msbuildProject": "../../src/TodoList.AppHost/TodoList.AppHost.csproj"
-    },
-    "TodoList.Host/1.0.0": {
-      "type": "project",
-      "path": "../../src/TodoList.Host/TodoList.Host.csproj",
-      "msbuildProject": "../../src/TodoList.Host/TodoList.Host.csproj"
-    },
-    "TodoList.Manager/1.0.0": {
-      "type": "project",
-      "path": "../../src/TodoList.Manager/TodoList.Manager.csproj",
-      "msbuildProject": "../../src/TodoList.Manager/TodoList.Manager.csproj"
-    },
-    "TodoList.ServiceDefaults/1.0.0": {
-      "type": "project",
-      "path": "../../src/TodoList.ServiceDefaults/TodoList.ServiceDefaults.csproj",
-      "msbuildProject": "../../src/TodoList.ServiceDefaults/TodoList.ServiceDefaults.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5495,9 +4700,6 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.6.0",
       "NUnit3TestAdapter >= 4.6.0",
-      "TodoList.Access >= 1.0.0",
-      "TodoList.AppHost >= 1.0.0",
-      "TodoList.Host >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -5534,17 +4736,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Access\\TodoList.Access.csproj": {
-              "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Access\\TodoList.Access.csproj"
-            },
-            "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\TodoList.AppHost.csproj": {
-              "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\TodoList.AppHost.csproj"
-            },
-            "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\TodoList.Host.csproj": {
-              "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\TodoList.Host.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5557,7 +4749,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -5637,7 +4829,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

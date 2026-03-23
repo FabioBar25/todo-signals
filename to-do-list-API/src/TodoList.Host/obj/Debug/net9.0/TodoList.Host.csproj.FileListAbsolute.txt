@@ -119,7 +119,6 @@ C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\swae.build.ex.cache
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\TodoList.B86B5C79.Up2Date
 C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\obj\Debug\net9.0\TodoList.Host.dll

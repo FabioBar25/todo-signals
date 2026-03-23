@@ -28,9 +28,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TodoList.Access\TodoList.Access.csproj" />
-    <ProjectReference Include="..\..\src\TodoList.AppHost\TodoList.AppHost.csproj" />
-    <ProjectReference Include="..\..\src\TodoList.Host\TodoList.Host.csproj" />
+    <Reference Include="TodoList.Host">
+      <HintPath>..\..\src\TodoList.Host\bin\Debug\net9.0\TodoList.Host.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\src\TodoList.Host\bin\Debug\net9.0\TodoList.Host.deps.json">
+      <Link>TodoList.Host.deps.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\src\TodoList.Host\bin\Debug\net9.0\TodoList.Host.runtimeconfig.json">
+      <Link>TodoList.Host.runtimeconfig.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\src\TodoList.Host\bin\Debug\net9.0\appsettings.json">
+      <Link>appsettings.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\src\TodoList.Host\bin\Debug\net9.0\appsettings.Development.json">
+      <Link>appsettings.Development.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
