@@ -15,5 +15,5 @@ public class TodoList_Host : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the TodoList_Host project.
     /// </summary>
-    public string ProjectPath => """C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\TodoList.Host.csproj""";
+    public string ProjectPath => """C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.Host\TodoList.Host.csproj""";
 }

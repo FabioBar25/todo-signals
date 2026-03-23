@@ -22,3 +22,15 @@ C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoLis
 C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\refint\TodoList.ServiceDefaults.dll
 C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.pdb
 C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\ref\TodoList.ServiceDefaults.dll
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\bin\Debug\net9.0\TodoList.ServiceDefaults.deps.json
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\bin\Debug\net9.0\TodoList.ServiceDefaults.dll
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\bin\Debug\net9.0\TodoList.ServiceDefaults.pdb
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.AssemblyInfo.cs
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.sourcelink.json
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.dll
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\refint\TodoList.ServiceDefaults.dll
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\TodoList.ServiceDefaults.pdb
+C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.ServiceDefaults\obj\Debug\net9.0\ref\TodoList.ServiceDefaults.dll

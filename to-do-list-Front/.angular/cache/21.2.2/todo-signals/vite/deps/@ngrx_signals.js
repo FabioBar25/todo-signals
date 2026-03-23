@@ -12,11 +12,11 @@ import {
   signal,
   untracked,
   ɵɵdefineInjectable
-} from "./chunk-QJGRX6QG.js";
+} from "./chunk-ZTOWHFLH.js";
 import {
   __spreadProps,
   __spreadValues
-} from "./chunk-VEF4Q3TF.js";
+} from "./chunk-KUW5KNZA.js";
 
 // node_modules/@ngrx/signals/fesm2022/ngrx-signals.mjs
 var DEEP_SIGNAL = /* @__PURE__ */ Symbol(typeof ngDevMode !== "undefined" && ngDevMode ? "DEEP_SIGNAL" : "");

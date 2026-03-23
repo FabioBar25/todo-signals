@@ -5,14 +5,14 @@ import {
   effect,
   inject,
   untracked
-} from "./chunk-QJGRX6QG.js";
+} from "./chunk-ZTOWHFLH.js";
 import {
   Subject,
   __spreadProps,
   __spreadValues,
   isObservable,
   noop
-} from "./chunk-VEF4Q3TF.js";
+} from "./chunk-KUW5KNZA.js";
 
 // node_modules/@ngrx/signals/fesm2022/ngrx-signals-rxjs-interop.mjs
 function rxMethod(generator, config) {

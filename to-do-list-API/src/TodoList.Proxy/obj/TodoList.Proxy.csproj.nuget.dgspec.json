@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj": {}
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj": {
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
+        "projectUniqueName": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
         "projectName": "TodoList.Proxy",
-        "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
-        "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\obj\\",
+        "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
+        "packagesPath": "C:\\Users\\FabioBareiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
-          "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,8 +34,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj"
+              "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj"
               }
             }
           }
@@ -50,7 +50,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -66,8 +66,16 @@
             "Aspire.Hosting.AppHost": "9.5.2",
             "Aspire.Hosting.NodeJS": "9.5.2",
             "Aspire.Hosting.PostgreSQL": "9.5.2",
+            "Aspire.Hosting.Testing": "9.5.2",
+            "coverlet.collector": "6.0.2",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.0",
             "Microsoft.EntityFrameworkCore": "9.0.0",
+            "Microsoft.NET.Test.Sdk": "17.12.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.0",
+            "NSubstitute": "5.3.0",
+            "NUnit": "4.2.2",
+            "NUnit.Analyzers": "4.6.0",
+            "NUnit3TestAdapter": "4.6.0",
             "Yarp.ReverseProxy": "2.2.0"
           },
           "imports": [
@@ -89,26 +97,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj": {
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj",
         "projectName": "TodoList.ServiceDefaults",
-        "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\obj\\",
+        "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\FabioBareiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
-          "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -135,7 +143,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -144,8 +152,16 @@
             "Aspire.Hosting.AppHost": "9.5.2",
             "Aspire.Hosting.NodeJS": "9.5.2",
             "Aspire.Hosting.PostgreSQL": "9.5.2",
+            "Aspire.Hosting.Testing": "9.5.2",
+            "coverlet.collector": "6.0.2",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.0",
             "Microsoft.EntityFrameworkCore": "9.0.0",
+            "Microsoft.NET.Test.Sdk": "17.12.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.0",
+            "NSubstitute": "5.3.0",
+            "NUnit": "4.2.2",
+            "NUnit.Analyzers": "4.6.0",
+            "NUnit3TestAdapter": "4.6.0",
             "Yarp.ReverseProxy": "2.2.0"
           },
           "imports": [
@@ -167,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
