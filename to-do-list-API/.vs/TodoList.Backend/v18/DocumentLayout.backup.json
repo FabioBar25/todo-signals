@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|solutionrelative:src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\contracts\\savetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\contracts\\savetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD411CE-F1B6-40E7-912C-DA729B7289BF}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD411CE-F1B6-40E7-912C-DA729B7289BF}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|solutionrelative:src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\managers\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\managers\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\managers\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\managers\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BC65027-F234-4B73-BAF3-8D572EEB161C}|src\\TodoList.Host\\TodoList.Host.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.host\\infrastructure\\databaseinitializationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC65027-F234-4B73-BAF3-8D572EEB161C}|src\\TodoList.Host\\TodoList.Host.csproj|solutionrelative:src\\todolist.host\\infrastructure\\databaseinitializationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +39,8 @@
       "RelativeMoniker": "D:0:0:{2BC65027-F234-4B73-BAF3-8D572EEB161C}|src\\TodoList.Host\\TodoList.Host.csproj|solutionrelative:src\\todolist.host\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\managers\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\managers\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\contracts\\savetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\contracts\\savetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\managers\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\managers\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|solutionrelative:src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A34AA745-0BC1-4A85-B50F-84685F418A6A}|src\\TodoList.AppHost\\TodoList.AppHost.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A34AA745-0BC1-4A85-B50F-84685F418A6A}|src\\TodoList.AppHost\\TodoList.AppHost.csproj|solutionrelative:src\\todolist.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BC65027-F234-4B73-BAF3-8D572EEB161C}|src\\TodoList.Host\\TodoList.Host.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFD411CE-F1B6-40E7-912C-DA729B7289BF}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFD411CE-F1B6-40E7-912C-DA729B7289BF}|src\\TodoList.ServiceDefaults\\TodoList.ServiceDefaults.csproj|solutionrelative:src\\todolist.servicedefaults\\servicedefaultsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,45 +71,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Proxy\\Program.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
-              "RelativeToolTip": "src\\TodoList.Proxy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T18:31:13.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskManager.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\TaskManager.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Managers\\TaskManager.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\TaskManager.cs",
-              "RelativeToolTip": "src\\TodoList.Manager\\Managers\\TaskManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:18:44.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ITaskManager.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\ITaskManager.cs",
               "RelativeDocumentMoniker": "src\\TodoList.Manager\\Managers\\ITaskManager.cs",
               "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\ITaskManager.cs",
               "RelativeToolTip": "src\\TodoList.Manager\\Managers\\ITaskManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:15:54.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "SaveTaskRequest.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
+              "RelativeToolTip": "src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:15:42.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseInitializationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
+              "RelativeToolTip": "src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:10:38.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\TodoList.AppHost\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\TodoList.AppHost\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T17:51:46.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Host\\Program.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Program.cs",
+              "RelativeToolTip": "src\\TodoList.Host\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:01:34.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "RelativeToolTip": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:13:48.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Proxy\\Program.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "RelativeToolTip": "src\\TodoList.Proxy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:31:13.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "src\\TodoList.Manager\\Models\\TaskItem.cs",
@@ -122,20 +172,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SaveTaskRequest.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
-              "RelativeToolTip": "src\\TodoList.Manager\\Contracts\\SaveTaskRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\TaskManager.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Managers\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\TaskManager.cs",
+              "RelativeToolTip": "src\\TodoList.Manager\\Managers\\TaskManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:15:42.475Z",
+              "WhenOpened": "2026-03-23T13:18:44.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ServiceDefaultsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "RelativeToolTip": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:19:13.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "src\\TodoList.Host\\Controllers\\TasksController.cs",
@@ -143,62 +206,11 @@
               "RelativeToolTip": "src\\TodoList.Host\\Controllers\\TasksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:02:10.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:02:10.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseInitializationExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
-              "RelativeToolTip": "src\\TodoList.Host\\Infrastructure\\DatabaseInitializationExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:10:38.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\TodoList.AppHost\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\TodoList.AppHost\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-23T17:51:46.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Host\\Program.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Host\\Program.cs",
-              "RelativeToolTip": "src\\TodoList.Host\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:01:34.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITaskAccessor.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "RelativeToolTip": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:13:48.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.AppHost\\Program.cs",
               "RelativeDocumentMoniker": "src\\TodoList.AppHost\\Program.cs",
@@ -210,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\TodoList.Manager\\ServiceCollectionExtensions.cs",
@@ -219,18 +231,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:19:03.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServiceDefaultsExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
-              "RelativeToolTip": "src\\TodoList.ServiceDefaults\\ServiceDefaultsExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:19:13.58Z"
             }
           ]
         }
