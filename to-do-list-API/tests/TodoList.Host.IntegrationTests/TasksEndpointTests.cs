@@ -43,6 +43,8 @@ public sealed class TasksEndpointTests
             throw new InvalidOperationException("Aspire did not provide a connection string for 'tasksdb'.");
         }
 
+        Environment.SetEnvironmentVariable("ConnectionStrings__tasksdb", connectionString);
+
         factory = new TaskApiFactory(connectionString);
         client = factory.CreateClient();
     }
@@ -61,6 +63,8 @@ public sealed class TasksEndpointTests
         {
             await appHost.DisposeAsync();
         }
+
+        Environment.SetEnvironmentVariable("ConnectionStrings__tasksdb", null);
     }
 
     [Test]

@@ -7,7 +7,8 @@
       "launchBrowser": false,
       "applicationUrl": "http://localhost:5001",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__tasksdb": "Host=your-host;Port=5432;Database=your-db;Username=your-user;Password=your-password;SSL Mode=Require"
       }
     }
   }

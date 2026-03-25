@@ -9,7 +9,7 @@ internal sealed class TaskApiFactory(string connectionString) : WebApplicationFa
 {
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
-        var repositoryRoot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
+        var repositoryRoot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", ".."));
         var hostProjectPath = Path.Combine(repositoryRoot, "src", "TodoList.Host");
 
         builder.UseEnvironment("Development");
