@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ISG5BYCkq60=",
+  "dgSpecHash": "dKfx3cW4mU4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
+  "projectFilePath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\TodoList.Proxy.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joako\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
-    "C:\\Users\\joako\\.nuget\\packages\\yarp.reverseproxy\\2.2.0\\yarp.reverseproxy.2.2.0.nupkg.sha512"
+    "C:\\Users\\FabioBareiro\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\FabioBareiro\\.nuget\\packages\\yarp.reverseproxy\\2.2.0\\yarp.reverseproxy.2.2.0.nupkg.sha512"
   ],
   "logs": []
 }

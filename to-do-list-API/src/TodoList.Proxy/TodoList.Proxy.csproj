@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TodoList.ServiceDefaults\TodoList.ServiceDefaults.csproj"
-                      SkipGetTargetFrameworkProperties="true" />
+    <ProjectReference Include="..\TodoList.ServiceDefaults\TodoList.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

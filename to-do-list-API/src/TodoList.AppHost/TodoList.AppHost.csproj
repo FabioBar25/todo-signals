@@ -16,9 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TodoList.Host\TodoList.Host.csproj"
-                      SkipGetTargetFrameworkProperties="true" />
-    <ProjectReference Include="..\TodoList.Proxy\TodoList.Proxy.csproj"
-                      SkipGetTargetFrameworkProperties="true" />
+    <ProjectReference Include="..\TodoList.Host\TodoList.Host.csproj" />
+    <ProjectReference Include="..\TodoList.Proxy\TodoList.Proxy.csproj" />
   </ItemGroup>
 </Project>
