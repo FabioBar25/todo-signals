@@ -10,6 +10,40 @@ $text: #2d3436;
   display: flex; gap: 5px; align-items: center;
 }
 
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #6c7a62;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quick-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  a {
+    color: $primary;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .task-title {
   flex: 1;
   word-break: break-word;
@@ -67,7 +101,9 @@ ul {
 
 .app-container {
   height: 100vh;
-  background: $background;
+  background:
+    radial-gradient(circle at top left, rgba(45, 184, 77, 0.08), transparent 28%),
+    linear-gradient(180deg, #f6f4ed 0%, $background 100%);
 
   display: flex;
   justify-content: center;
@@ -84,8 +120,7 @@ ul {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 
     .title {
-      text-align: center;
-      margin-bottom: 25px;
+      margin: 0;
       color: $text;
     }
 
@@ -196,5 +231,20 @@ ul {
         }
       }
     }
+  }
+}
+
+@media (max-width: 640px) {
+  .app-container {
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .card-meta {
+    flex-direction: column;
+  }
+
+  .todo-card {
+    width: 100%;
   }
 }

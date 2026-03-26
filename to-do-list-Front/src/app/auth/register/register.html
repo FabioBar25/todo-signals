@@ -1,0 +1,110 @@
+<section class="auth-page">
+  <div class="auth-panel">
+    <aside class="auth-brand">
+      <span class="brand-badge">Paper Workspace</span>
+      <h1 class="brand-title">Create a task notebook that feels tidy from the very first screen.</h1>
+      <p class="brand-copy">
+        Register a new account and land in the same warm Evernote-inspired workspace as the rest of
+        the app.
+      </p>
+
+      <div class="brand-feature-list">
+        <div class="brand-feature">
+          <span class="brand-feature-title">Thoughtful onboarding</span>
+          <p class="brand-feature-copy">
+            The register page mirrors the login experience so the auth flow feels like one system.
+          </p>
+        </div>
+
+        <div class="brand-feature">
+          <span class="brand-feature-title">Ready for backend wiring</span>
+          <p class="brand-feature-copy">
+            The form already posts to conventional auth endpoints when your API is available.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <div class="auth-card">
+      <div>
+        <p class="auth-eyebrow">New Account</p>
+        <h2 class="auth-heading">Create your workspace</h2>
+        <p class="auth-subtitle">
+          Set up your account to start capturing tasks, priorities, and quick notes in one place.
+        </p>
+      </div>
+
+      <form class="auth-form" (ngSubmit)="submit()">
+        <label class="auth-field">
+          <span>Full name</span>
+          <input
+            type="text"
+            autocomplete="name"
+            placeholder="Fabio Bareiro"
+            [value]="fullName()"
+            (input)="fullName.set($any($event.target).value)"
+          />
+        </label>
+
+        <label class="auth-field">
+          <span>Email</span>
+          <input
+            type="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            [value]="email()"
+            (input)="email.set($any($event.target).value)"
+          />
+        </label>
+
+        <div class="auth-grid-2">
+          <label class="auth-field">
+            <span>Password</span>
+            <input
+              type="password"
+              autocomplete="new-password"
+              placeholder="At least 8 characters"
+              [value]="password()"
+              (input)="password.set($any($event.target).value)"
+            />
+          </label>
+
+          <label class="auth-field">
+            <span>Confirm password</span>
+            <input
+              type="password"
+              autocomplete="new-password"
+              placeholder="Repeat your password"
+              [value]="confirmPassword()"
+              (input)="confirmPassword.set($any($event.target).value)"
+            />
+          </label>
+        </div>
+
+        <p class="auth-field-hint">
+          Password confirmation is validated in the UI before the request is sent.
+        </p>
+
+        @if (error(); as errorMessage) {
+          <p class="auth-feedback error">{{ errorMessage }}</p>
+        }
+
+        @if (success(); as successMessage) {
+          <p class="auth-feedback success">{{ successMessage }}</p>
+        }
+
+        <button class="auth-submit" type="submit" [disabled]="isSubmitting()">
+          {{ isSubmitting() ? 'Creating account...' : 'Create Account' }}
+        </button>
+      </form>
+
+      <div class="auth-footer">
+        <p>
+          Already registered?
+          <a class="auth-link" routerLink="/login">Sign in</a>
+        </p>
+        <a class="auth-link" routerLink="/tasks">Continue to tasks</a>
+      </div>
+    </div>
+  </div>
+</section>

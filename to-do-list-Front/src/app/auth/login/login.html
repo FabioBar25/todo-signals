@@ -1,0 +1,80 @@
+<section class="auth-page">
+  <div class="auth-panel">
+    <aside class="auth-brand">
+      <span class="brand-badge">Evernote Style</span>
+      <h1 class="brand-title">Bring your notes, plans, and next steps back into one place.</h1>
+      <p class="brand-copy">
+        Sign in to your workspace and pick up with the same calm, paper-first flow the project is
+        already using.
+      </p>
+
+      <div class="brand-feature-list">
+        <div class="brand-feature">
+          <span class="brand-feature-title">Focused dashboard</span>
+          <p class="brand-feature-copy">
+            Jump from login straight into your task notebook without extra friction.
+          </p>
+        </div>
+
+        <div class="brand-feature">
+          <span class="brand-feature-title">Evernote-inspired tone</span>
+          <p class="brand-feature-copy">
+            Soft paper colors, rounded cards, and green accents keep the UI consistent.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <div class="auth-card">
+      <div>
+        <p class="auth-eyebrow">Welcome Back</p>
+        <h2 class="auth-heading">Log in to your notebook</h2>
+        <p class="auth-subtitle">
+          Use your account details to continue organizing tasks, ideas, and reminders.
+        </p>
+      </div>
+
+      <form class="auth-form" (ngSubmit)="submit()">
+        <label class="auth-field">
+          <span>Email</span>
+          <input
+            type="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            [value]="email()"
+            (input)="email.set($any($event.target).value)"
+          />
+        </label>
+
+        <label class="auth-field">
+          <span>Password</span>
+          <input
+            type="password"
+            autocomplete="current-password"
+            placeholder="Enter your password"
+            [value]="password()"
+            (input)="password.set($any($event.target).value)"
+          />
+        </label>
+
+        <p class="auth-field-hint">This frontend is ready to connect to your backend auth endpoints.</p>
+
+        @if (error(); as errorMessage) {
+          <p class="auth-feedback error">{{ errorMessage }}</p>
+        }
+
+        <button class="auth-submit" type="submit" [disabled]="isSubmitting()">
+          {{ isSubmitting() ? 'Signing in...' : 'Sign In' }}
+        </button>
+      </form>
+
+      <div class="auth-footer">
+        <p>
+          Need an account?
+          <a class="auth-link" routerLink="/register">Create one</a>
+        </p>
+        <a class="auth-link" routerLink="/tasks">Continue to tasks</a>
+      </div>
+    </div>
+  </div>
+</section>
