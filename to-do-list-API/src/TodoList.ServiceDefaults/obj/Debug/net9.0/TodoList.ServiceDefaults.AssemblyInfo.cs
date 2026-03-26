@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoList.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ebbeb7d81ec1ed749078650efdb9ec27d1855b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+247789b80375bb1503b962b860801deb3b781374")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoList.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoList.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

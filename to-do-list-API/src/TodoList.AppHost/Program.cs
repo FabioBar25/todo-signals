@@ -7,6 +7,7 @@ var tasksDatabase = postgres.AddDatabase("tasksdb");
 
 var api = builder.AddProject<Projects.TodoList_Host>("host")
     .WithReference(tasksDatabase)
+    .WaitFor(postgres)
     .WaitFor(tasksDatabase);
 
 var proxy = builder.AddProject<Projects.TodoList_Proxy>("proxy")
