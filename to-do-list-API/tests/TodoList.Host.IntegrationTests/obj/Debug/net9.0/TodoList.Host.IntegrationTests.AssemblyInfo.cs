@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoList.Host.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1b294327e8e999af3bc1b5621fcf962f999436f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0cc30505222435be7d80e7a06ea9cc0e9305e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoList.Host.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoList.Host.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

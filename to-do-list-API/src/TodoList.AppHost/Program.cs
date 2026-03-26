@@ -14,8 +14,8 @@ var proxy = builder.AddProject<Projects.TodoList_Proxy>("proxy")
     .WaitFor(api)
     .WithExternalHttpEndpoints();
 
-builder.AddNpmApp("frontend", "..\\..\\..", "start:aspire")
-    .WithHttpEndpoint(env: "PORT", port: 4300)
+builder.AddNpmApp("frontend", "..\\..\\..\\to-do-list-Front", "start:aspire")
+    .WithHttpEndpoint(env: "PORT")
     .WithEnvironment("BROWSER", "none");
 
 builder.Build().Run();
