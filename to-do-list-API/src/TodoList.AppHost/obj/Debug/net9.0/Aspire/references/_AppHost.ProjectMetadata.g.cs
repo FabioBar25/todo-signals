@@ -17,5 +17,5 @@ public class TodoList_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.AppHost""";
+    public static string ProjectPath => """C:\Users\joako\OneDrive\Documents\GitHub\todo-signals\to-do-list-API\src\TodoList.AppHost""";
 }

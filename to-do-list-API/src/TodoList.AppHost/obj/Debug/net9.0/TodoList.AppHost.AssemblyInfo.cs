@@ -11,23 +11,23 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\FabioBareiro\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\" +
-    "tools\\dcp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\FabioBareiro\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\" +
-    "tools\\ext\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\FabioBareiro\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\" +
-    "tools\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.A" +
-    "ppHost")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\joako\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\d" +
+    "cp.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\joako\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\e" +
+    "xt\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\joako\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\e" +
+    "xt\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList" +
+    ".AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "TodoList.AppHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\FabioBareiro\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\tools\\As" +
-    "pire.Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.A" +
-    "ppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\joako\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\tools\\Aspire.Da" +
+    "shboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList" +
+    ".AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoList.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69212b8419fe24dc3815ddc892a8cc1e50ffe2f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+222b7c6cc6e0e4cf8d677ce19781d334d69e9632")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoList.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoList.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
