@@ -1,7 +1,0 @@
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.csproj.AssemblyReference.cache
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\MvcTestingAppManifest.json
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.AssemblyInfoInputs.cache
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.AssemblyInfo.cs
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.csproj.CoreCompileInputs.cache
-C:\Users\FabioBareiro\Documents\GitHub\todo-signals\to-do-list-API\tests\TodoList.Host.IntegrationTests\obj\Debug\net9.0\TodoList.Host.IntegrationTests.sourcelink.json

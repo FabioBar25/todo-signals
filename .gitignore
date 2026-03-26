@@ -43,3 +43,6 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+to-do-list-API/tests/TodoList.Manager.Tests/obj/Debug/net9.0/TodoList.12D52D0D.Up2Date
+to-do-list-API/tests/TodoList.Manager.Tests/obj/project.nuget.cache
+to-do-list-API/tests/TodoList.Manager.Tests/obj/project.assets.json

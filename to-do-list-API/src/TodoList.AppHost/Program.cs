@@ -10,12 +10,16 @@ var api = builder.AddProject<Projects.TodoList_Host>("host")
     .WaitFor(postgres)
     .WaitFor(tasksDatabase);
 
-var proxy = builder.AddProject<Projects.TodoList_Proxy>("proxy")
-    .WaitFor(api)
-    .WithExternalHttpEndpoints();
-
-builder.AddNpmApp("frontend", "..\\..\\..\\to-do-list-Front", "start:aspire")
+var frontend = builder.AddNpmApp("frontend", "..\\..\\..\\to-do-list-Front", "start:aspire")
     .WithHttpEndpoint(env: "PORT")
     .WithEnvironment("BROWSER", "none");
+
+var proxy = builder.AddProject<Projects.TodoList_Proxy>("proxy")
+    .WaitFor(api)
+    .WaitFor(frontend)
+    .WithExternalHttpEndpoints()
+    .WithEnvironment(
+        "ReverseProxy__Clusters__frontend-cluster__Destinations__frontend__Address",
+        frontend.GetEndpoint("http"));
 
 builder.Build().Run();

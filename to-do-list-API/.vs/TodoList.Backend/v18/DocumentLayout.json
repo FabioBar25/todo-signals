@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|solutionrelative:src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|solutionrelative:src\\todolist.manager\\access\\itaskaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF984D7A-EAFE-4CFA-9B1C-29D99052EE2E}|src\\TodoList.Manager\\TodoList.Manager.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.manager\\contracts\\savetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Proxy\\Program.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "RelativeToolTip": "src\\TodoList.Proxy\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:31:13.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITaskAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "RelativeToolTip": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:13:48.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -118,19 +144,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITaskAccessor.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "RelativeToolTip": "src\\TodoList.Manager\\Access\\ITaskAccessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:13:48.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ITaskManager.cs",
               "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\Managers\\ITaskManager.cs",
@@ -140,18 +153,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:15:54.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TodoList.Proxy\\Program.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
-              "RelativeToolTip": "src\\TodoList.Proxy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T18:31:13.696Z"
             },
             {
               "$type": "Document",
