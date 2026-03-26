@@ -1982,11 +1982,11 @@
           }
         }
       },
-      "TodoList.ServiceDefaults/1.0.0.0": {
+      "Npgsql/9.0.0.0": {
         "runtime": {
-          "TodoList.ServiceDefaults.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "Npgsql.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         }
       },
@@ -1995,6 +1995,14 @@
           "Microsoft.EntityFrameworkCore.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52902"
+          }
+        }
+      },
+      "TodoList.ServiceDefaults/1.0.0.0": {
+        "runtime": {
+          "TodoList.ServiceDefaults.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -2019,14 +2027,6 @@
           "Microsoft.EntityFrameworkCore.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52902"
-          }
-        }
-      },
-      "Npgsql/9.0.0.0": {
-        "runtime": {
-          "Npgsql.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.0.0"
           }
         }
       },
@@ -4481,12 +4481,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "TodoList.ServiceDefaults/1.0.0.0": {
+    "Npgsql/9.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "Microsoft.EntityFrameworkCore/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TodoList.ServiceDefaults/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -4502,11 +4507,6 @@
       "sha512": ""
     },
     "Microsoft.EntityFrameworkCore.Abstractions/9.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Npgsql/9.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
