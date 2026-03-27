@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj": {}
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj": {
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
+        "projectUniqueName": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
         "projectName": "TodoList.Manager",
-        "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
-        "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\obj\\",
+        "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj",
+        "packagesPath": "C:\\Users\\FabioBareiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
-          "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -86,26 +86,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj": {
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj",
         "projectName": "TodoList.Manager.Tests",
-        "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj",
-        "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\obj\\",
+        "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\TodoList.Manager.Tests.csproj",
+        "packagesPath": "C:\\Users\\FabioBareiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Manager.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
-          "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,8 +120,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj": {
-                "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj"
+              "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj": {
+                "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Manager\\TodoList.Manager.csproj"
               }
             }
           }
@@ -136,7 +136,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -211,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

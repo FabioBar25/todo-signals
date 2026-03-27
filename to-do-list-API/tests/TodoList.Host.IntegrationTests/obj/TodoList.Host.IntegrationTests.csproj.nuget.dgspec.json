@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj": {}
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj": {
+    "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj",
         "projectName": "TodoList.Host.IntegrationTests",
-        "projectPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj",
-        "packagesPath": "C:\\Users\\joako\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\obj\\",
+        "projectPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\TodoList.Host.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\FabioBareiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\tests\\TodoList.Host.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
-          "C:\\Users\\joako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\NuGet.Config",
+          "C:\\Users\\FabioBareiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
