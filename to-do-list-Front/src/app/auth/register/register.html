@@ -1,30 +1,5 @@
 <section class="auth-page">
   <div class="auth-panel">
-    <aside class="auth-brand">
-      <span class="brand-badge">Paper Workspace</span>
-      <h1 class="brand-title">Create a task notebook that feels tidy from the very first screen.</h1>
-      <p class="brand-copy">
-        Register a new account and land in the same warm Evernote-inspired workspace as the rest of
-        the app.
-      </p>
-
-      <div class="brand-feature-list">
-        <div class="brand-feature">
-          <span class="brand-feature-title">Thoughtful onboarding</span>
-          <p class="brand-feature-copy">
-            The register page mirrors the login experience so the auth flow feels like one system.
-          </p>
-        </div>
-
-        <div class="brand-feature">
-          <span class="brand-feature-title">Ready for backend wiring</span>
-          <p class="brand-feature-copy">
-            The form already posts to conventional auth endpoints when your API is available.
-          </p>
-        </div>
-      </div>
-    </aside>
-
     <div class="auth-card">
       <div>
         <p class="auth-eyebrow">New Account</p>
@@ -80,10 +55,6 @@
             />
           </label>
         </div>
-
-        <p class="auth-field-hint">
-          Your password is validated in the UI, then hashed and stored by the API.
-        </p>
 
         @if (error(); as errorMessage) {
           <p class="auth-feedback error">{{ errorMessage }}</p>

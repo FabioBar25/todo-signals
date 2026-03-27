@@ -33,17 +33,19 @@ select {
   display: grid;
   place-items: center;
   background:
-    radial-gradient(circle at top left, rgba(85, 139, 47, 0.18), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(214, 182, 107, 0.18), transparent 28%),
-    linear-gradient(180deg, #f6f1e6 0%, #ece3d3 100%);
+    #0a5424 
+    // radial-gradient(circle at top left, rgba(85, 139, 47, 0.18), transparent 34%),
+    // radial-gradient(circle at bottom right, rgba(214, 182, 107, 0.18), transparent 28%),
+    // linear-gradient(180deg, #f6f1e6 0%, #ece3d3 100%);
 }
 
 .auth-panel {
-  width: min(1040px, 100%);
+  width: min(400px, 100%);
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
+  grid-template-columns: 1fr;
   gap: 24px;
-  align-items: stretch;
+  align-items: center;
+  justify-items: center;
 }
 
 .auth-brand,
