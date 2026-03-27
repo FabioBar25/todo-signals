@@ -7,10 +7,11 @@ namespace TodoList.Access;
 
 public sealed class TaskAccessor(TodoDbContext dbContext) : ITaskAccessor
 {
-    public async Task<IReadOnlyList<TaskItem>> GetAllAsync(CancellationToken cancellationToken)
+    public async Task<IReadOnlyList<TaskItem>> GetAllAsync(int userId, CancellationToken cancellationToken)
     {
         return await dbContext.Tasks
             .AsNoTracking()
+            .Where(task => task.UserId == userId)
             .OrderBy(task => task.Id)
             .Select(task => new TaskItem
             {
@@ -20,10 +21,11 @@ public sealed class TaskAccessor(TodoDbContext dbContext) : ITaskAccessor
             .ToListAsync(cancellationToken);
     }
 
-    public async Task<TaskItem> CreateAsync(string title, CancellationToken cancellationToken)
+    public async Task<TaskItem> CreateAsync(int userId, string title, CancellationToken cancellationToken)
     {
         var taskRecord = new TaskRecord
         {
+            UserId = userId,
             Title = title
         };
 
@@ -33,9 +35,11 @@ public sealed class TaskAccessor(TodoDbContext dbContext) : ITaskAccessor
         return Map(taskRecord);
     }
 
-    public async Task<TaskItem?> UpdateAsync(int id, string title, CancellationToken cancellationToken)
+    public async Task<TaskItem?> UpdateAsync(int userId, int id, string title, CancellationToken cancellationToken)
     {
-        var taskRecord = await dbContext.Tasks.SingleOrDefaultAsync(task => task.Id == id, cancellationToken);
+        var taskRecord = await dbContext.Tasks.SingleOrDefaultAsync(
+            task => task.Id == id && task.UserId == userId,
+            cancellationToken);
         if (taskRecord is null)
         {
             return null;
@@ -47,9 +51,11 @@ public sealed class TaskAccessor(TodoDbContext dbContext) : ITaskAccessor
         return Map(taskRecord);
     }
 
-    public async Task<bool> DeleteAsync(int id, CancellationToken cancellationToken)
+    public async Task<bool> DeleteAsync(int userId, int id, CancellationToken cancellationToken)
     {
-        var taskRecord = await dbContext.Tasks.SingleOrDefaultAsync(task => task.Id == id, cancellationToken);
+        var taskRecord = await dbContext.Tasks.SingleOrDefaultAsync(
+            task => task.Id == id && task.UserId == userId,
+            cancellationToken);
         if (taskRecord is null)
         {
             return false;

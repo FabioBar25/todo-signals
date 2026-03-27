@@ -14,6 +14,7 @@ public static class ServiceCollectionExtensions
 
         services.AddDbContext<TodoDbContext>(options => options.UseNpgsql(connectionString));
         services.AddScoped<ITaskAccessor, TaskAccessor>();
+        services.AddScoped<IUserAccessor, UserAccessor>();
 
         return services;
     }

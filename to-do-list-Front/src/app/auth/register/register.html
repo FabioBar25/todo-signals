@@ -82,7 +82,7 @@
         </div>
 
         <p class="auth-field-hint">
-          Password confirmation is validated in the UI before the request is sent.
+          Your password is validated in the UI, then hashed and stored by the API.
         </p>
 
         @if (error(); as errorMessage) {
@@ -103,7 +103,6 @@
           Already registered?
           <a class="auth-link" routerLink="/login">Sign in</a>
         </p>
-        <a class="auth-link" routerLink="/tasks">Continue to tasks</a>
       </div>
     </div>
   </div>

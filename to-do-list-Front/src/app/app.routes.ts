@@ -1,4 +1,6 @@
 import { Routes } from '@angular/router';
+
+import { authRequiredGuard } from './core/auth/auth.guards';
 import { TodoComponent } from './todo/todo';
 
 export const routes: Routes = [
@@ -17,6 +19,7 @@ export const routes: Routes = [
   },
   {
     path: 'tasks',
+    canActivate: [authRequiredGuard],
     component: TodoComponent
   }
 ];

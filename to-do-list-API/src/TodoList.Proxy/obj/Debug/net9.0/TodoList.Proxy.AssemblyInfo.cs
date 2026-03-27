@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoList.Proxy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d42672c6cb2f21c37085851857d3c8a7ac176fd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8ee06fd1bd41d699bd0dc4630d67cb34a122bb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoList.Proxy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoList.Proxy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

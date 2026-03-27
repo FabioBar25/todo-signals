@@ -131,7 +131,15 @@ export const TodoStore = signalStore(
       retryLoad: () => loadTasks(),
       addTask,
       updateTask,
-      deleteTask
+      deleteTask,
+      clearTasks: () =>
+        patchState(store, {
+          tasks: [],
+          isLoading: false,
+          isSaving: false,
+          hasLoadTimedOut: false,
+          error: null
+        })
     };
   }),
   withHooks({

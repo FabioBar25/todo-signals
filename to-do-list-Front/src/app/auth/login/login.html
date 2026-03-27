@@ -57,7 +57,7 @@
           />
         </label>
 
-        <p class="auth-field-hint">This frontend is ready to connect to your backend auth endpoints.</p>
+        <p class="auth-field-hint">Sign in with the account stored by the API to open your own task list.</p>
 
         @if (error(); as errorMessage) {
           <p class="auth-feedback error">{{ errorMessage }}</p>
@@ -73,7 +73,6 @@
           Need an account?
           <a class="auth-link" routerLink="/register">Create one</a>
         </p>
-        <a class="auth-link" routerLink="/tasks">Continue to tasks</a>
       </div>
     </div>
   </div>

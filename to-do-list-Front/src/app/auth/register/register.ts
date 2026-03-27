@@ -1,20 +1,21 @@
+import { FormsModule } from '@angular/forms';
 import { Component, DestroyRef, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { Router, RouterLink } from '@angular/router';
-import { finalize, timeout } from 'rxjs';
+import { from, timeout, finalize } from 'rxjs';
 
-import { AuthApi } from '../../core/api/auth-api';
+import { AuthSessionService } from '../../core/auth/auth-session.service';
 import { AUTH_TIMEOUT_MS, getAuthErrorMessage } from '../auth.utils';
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [RouterLink],
+  imports: [FormsModule, RouterLink],
   templateUrl: './register.html',
   styleUrl: './register.scss'
 })
 export class RegisterComponent {
-  private readonly authApi = inject(AuthApi);
+  private readonly authSession = inject(AuthSessionService);
   private readonly router = inject(Router);
   private readonly destroyRef = inject(DestroyRef);
 
@@ -54,8 +55,7 @@ export class RegisterComponent {
     this.error.set(null);
     this.success.set(null);
 
-    this.authApi
-      .register({ fullName, email, password })
+    from(this.authSession.register({ fullName, email, password }))
       .pipe(
         timeout(AUTH_TIMEOUT_MS),
         finalize(() => this.isSubmitting.set(false)),

@@ -1,8 +1,9 @@
-import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 
 import { AuthApi } from './auth-api';
+import { apiCredentialsInterceptor } from './api-credentials.interceptor';
 
 describe('AuthApi', () => {
   let service: AuthApi;
@@ -10,7 +11,10 @@ describe('AuthApi', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [provideHttpClient(), provideHttpClientTesting()]
+      providers: [
+        provideHttpClient(withInterceptors([apiCredentialsInterceptor])),
+        provideHttpClientTesting()
+      ]
     });
     service = TestBed.inject(AuthApi);
     httpTestingController = TestBed.inject(HttpTestingController);
@@ -29,6 +33,7 @@ describe('AuthApi', () => {
 
     const request = httpTestingController.expectOne('/api/auth/login');
     expect(request.request.method).toBe('POST');
+    expect(request.request.withCredentials).toBe(true);
     expect(request.request.body).toEqual({
       email: 'test@example.com',
       password: 'secret123'
@@ -48,6 +53,7 @@ describe('AuthApi', () => {
 
     const request = httpTestingController.expectOne('/api/auth/register');
     expect(request.request.method).toBe('POST');
+    expect(request.request.withCredentials).toBe(true);
     expect(request.request.body).toEqual({
       fullName: 'Fabio Bareiro',
       email: 'test@example.com',
@@ -55,5 +61,15 @@ describe('AuthApi', () => {
     });
 
     request.flush({});
+  });
+
+  it('loads the current user from the session endpoint', () => {
+    service.getCurrentUser().subscribe();
+
+    const request = httpTestingController.expectOne('/api/auth/me');
+    expect(request.request.method).toBe('GET');
+    expect(request.request.withCredentials).toBe(true);
+
+    request.flush({ id: 1, fullName: 'Fabio Bareiro', email: 'test@example.com' });
   });
 });

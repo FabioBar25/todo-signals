@@ -66,6 +66,8 @@ public sealed class TasksEndpointTests
     [Test]
     public async Task CreateTask_HappyPath_PersistsTaskAndReturnsCreated()
     {
+        await RegisterAndSignInAsync();
+
         var response = await client.PostAsJsonAsync("/api/tasks", new SaveTaskRequestDto { Title = "Integration happy path" });
 
         Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created));
@@ -81,6 +83,29 @@ public sealed class TasksEndpointTests
         Assert.That(tasks, Is.Not.Null);
         Assert.That(tasks!, Has.Count.GreaterThanOrEqualTo(1));
         Assert.That(tasks.Any(task => task.Id == createdTask.Id && task.Title == "Integration happy path"), Is.True);
+    }
+
+    [Test]
+    public async Task GetTasks_AnonymousUser_IsRejected()
+    {
+        var response = await client.GetAsync("/api/tasks");
+
+        Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Unauthorized));
+    }
+
+    private async Task RegisterAndSignInAsync()
+    {
+        var suffix = Guid.NewGuid().ToString("N");
+        var response = await client.PostAsJsonAsync(
+            "/api/auth/register",
+            new RegisterUserRequestDto
+            {
+                FullName = "Integration User",
+                Email = $"integration-{suffix}@example.com",
+                Password = "secret123"
+            });
+
+        Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
     }
 
     private static Assembly LoadAppHostAssembly()
@@ -100,6 +125,18 @@ public sealed class TasksEndpointTests
     {
         [JsonPropertyName("title")]
         public string Title { get; init; } = string.Empty;
+    }
+
+    private sealed record RegisterUserRequestDto
+    {
+        [JsonPropertyName("fullName")]
+        public string FullName { get; init; } = string.Empty;
+
+        [JsonPropertyName("email")]
+        public string Email { get; init; } = string.Empty;
+
+        [JsonPropertyName("password")]
+        public string Password { get; init; } = string.Empty;
     }
 
     private sealed record TaskItemDto

@@ -8,6 +8,7 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddManagerLayer(this IServiceCollection services)
     {
         services.AddScoped<ITaskManager, TaskManager>();
+        services.AddScoped<IAuthManager, AuthManager>();
         return services;
     }
 }

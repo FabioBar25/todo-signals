@@ -27,6 +27,12 @@ $text: #2d3436;
   text-transform: uppercase;
 }
 
+.user-copy {
+  margin: 6px 0 0;
+  color: #636e72;
+  font-size: 13px;
+}
+
 .quick-links {
   display: flex;
   gap: 10px;
@@ -42,6 +48,17 @@ $text: #2d3436;
       text-decoration: underline;
     }
   }
+}
+
+.logout-button {
+  border: 1px solid $border;
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: white;
+  color: $text;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .task-title {

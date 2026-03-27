@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\",
+  "WorkspaceRootPath": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|c:\\users\\fabiobareiro\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|c:\\users\\joako\\onedrive\\documents\\github\\todo-signals\\to-do-list-api\\src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C3EA05D-6985-47E4-AE9D-8A874CBDF356}|src\\TodoList.Proxy\\TodoList.Proxy.csproj|solutionrelative:src\\todolist.proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
               "RelativeDocumentMoniker": "src\\TodoList.Proxy\\Program.cs",
-              "ToolTip": "C:\\Users\\FabioBareiro\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
+              "ToolTip": "C:\\Users\\joako\\OneDrive\\Documents\\GitHub\\todo-signals\\to-do-list-API\\src\\TodoList.Proxy\\Program.cs",
               "RelativeToolTip": "src\\TodoList.Proxy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T18:31:13.696Z",
               "EditorCaption": ""
